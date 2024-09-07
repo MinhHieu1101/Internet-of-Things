@@ -4,6 +4,8 @@ Swinburne University of Technology (Vietnam)
 
 ▪ IoT Smart Fan
 
+![IoT Smart Fan](/IoT Smart Fan.png)
+
 * Develop an IoT system using Arduino Uno, DHT11 sensor, LM35 sensor, 16x2 LCD, and a small fan module.
 
 * Implement serial communication between Arduino and a Raspberry Pi (on a virtual machine) for data storage and conditional automation based on temperature thresholds using C++ and Python.
