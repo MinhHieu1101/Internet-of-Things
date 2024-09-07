@@ -1,0 +1,32 @@
+#for the raspberry pi
+sudo pip install --upgrade pip
+sudo apt-get update
+sudo apt-get upgrade
+sudo pip install paho-mqtt python-etcd
+sudo pip install "paho-mqtt<2.0.0" (add --break-system-packages if not working)
+sudo pip install mysql-connector
+sudo pip install mysql-connector-python-rf
+
+#for the database
+Database name: assignment3_smarthome
+
+CREATE TABLE DoorPassword (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  password VARCHAR(4) NOT NULL
+);
+
+INSERT INTO DoorPassword (password) VALUES ('1234');
+
+CREATE TABLE AccessHistory (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  door_state VARCHAR(10),
+  password_input VARCHAR(10)
+);
+
+CREATE TABLE ServoControl (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  servo_position INT DEFAULT 180
+);
+
+INSERT INTO ServoControl (servo_position) VALUES (180);
