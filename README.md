@@ -4,7 +4,7 @@ Swinburne University of Technology (Vietnam)
 
 ▪ IoT Smart Fan
 
-![IoT Smart Fan](/IoT Smart Fan.png)
+![IoT Smart Fan](/IoTSmartFan.png)
 
 * Develop an IoT system using Arduino Uno, DHT11 sensor, LM35 sensor, 16x2 LCD, and a small fan module.
 
@@ -13,6 +13,8 @@ Swinburne University of Technology (Vietnam)
 * Create a PHP-based User Interface on the Raspberry Pi to display real-time sensor data and analysis features.
 
 ▪ Home Security - Smart Door
+
+![Home Security](/HomeSecurity.png)
 
 * Design a smart door system using ESP32 (with C++) for password verification and servo lock control; integrated with Raspberry Pi (with Python) for database management and access logging via ThingSpeak using MQTT and HTTP protocols.
 
